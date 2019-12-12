@@ -1,0 +1,14 @@
+Variable,Value,Note
+dir_in,/path/to/your/directory/with/data/,Directory with original data processed for downstream analyses
+dir_out,/path/to/your/directory/with/results/,Directory to store results
+file_name,name_of_your_file,File name (.csv extension is supposed)
+age_shift,50,Value to center age at baseline in Cox models
+str_cause,all-cause,String describing cause of death (all-cause or cause-specific death)
+name_rLTL,rLTL0,rLTL (residual LTL) variable
+name_event,event_variable,Event variable (all-cause death or cause-specific death)
+name_sex,sex_variable,Sex variable (coded as female=2 and male=1)
+name_age0,age_baseline_variable,Age at baseline variable
+name_time,time_variable,Time since baseline variable
+exclude_sex,0,Indicator to exclude sex from analysis (1 - exclude and 0 - do not exclude)
+,,
+age0gr_name,age0gr_name,Strata variable for age groups
